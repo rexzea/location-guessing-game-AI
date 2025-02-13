@@ -1,6 +1,6 @@
 {
     "questions": {
-        "continent": {
+        "continent": { 
             "text": "Is your country located in {option}?",
             "options": ["Asia", "Europe", "Africa", "North America", "South America", "Australia", "Antarctica"]
         },
