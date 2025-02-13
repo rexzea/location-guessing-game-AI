@@ -1,0 +1,147 @@
+{
+    "questions": {
+        "continent": {
+            "text": "Is your country located in {option}?",
+            "options": ["Asia", "Europe", "Africa", "North America", "South America", "Australia", "Antarctica"]
+        },
+        "climate": {
+            "text": "Does your country have a {option} climate?",
+            "options": ["tropical", "temperate", "desert", "mediterranean", "polar", "continental", "subtropical"]
+        },
+        "geography": {
+            "text": "Is your country {option}?",
+            "options": ["landlocked", "coastal", "mountainous", "mostly flat", "an island", "archipelagic"]
+        },
+        "size": {
+            "text": "Would you consider your country {option}?",
+            "options": ["very large", "large", "medium-sized", "small", "very small"]
+        },
+        "specific_features": {
+            "text": "Does your country {option}?",
+            "options": [
+                "have rainforests",
+                "have deserts",
+                "have monsoons",
+                "have active volcanoes",
+                "have snowy winters",
+                "have a large population",
+                "have ancient pyramids",
+                "have many islands",
+                "have famous beaches",
+                "export oil",
+                "grow rice",
+                "speak English officially",
+                "have a Great Wall",
+                "have the Amazon River",
+                "have the Himalayas"
+            ]
+        }
+    },
+    "countries": {
+        "China": {
+            "continent": "Asia",
+            "climate": "continental",
+            "geography": "coastal",
+            "size": "very large",
+            "specific_features": ["have snowy winters", "have a large population", "have the Great Wall"]
+        },
+        "India": {
+            "continent": "Asia",
+            "climate": "tropical",
+            "geography": "coastal",
+            "size": "very large",
+            "specific_features": ["have monsoons", "have a large population", "grow rice", "have the Himalayas"]
+        },
+        "Indonesia": {
+            "continent": "Asia",
+            "climate": "tropical",
+            "geography": "archipelagic",
+            "size": "large",
+            "specific_features": ["have rainforests", "have active volcanoes", "have many islands", "have famous beaches", "grow rice"]
+        },
+        "Japan": {
+            "continent": "Asia",
+            "climate": "temperate",
+            "geography": "archipelagic",
+            "size": "medium-sized",
+            "specific_features": ["have active volcanoes", "have snowy winters", "have many islands"]
+        },
+        "Australia": {
+            "continent": "Australia",
+            "climate": "desert",
+            "geography": "coastal",
+            "size": "very large",
+            "specific_features": ["have deserts", "have famous beaches", "speak English officially"]
+        },
+        "Brazil": {
+            "continent": "South America",
+            "climate": "tropical",
+            "geography": "coastal",
+            "size": "very large",
+            "specific_features": ["have rainforests", "have famous beaches", "have the Amazon River"]
+        },
+        "Egypt": {
+            "continent": "Africa",
+            "climate": "desert",
+            "geography": "coastal",
+            "size": "large",
+            "specific_features": ["have deserts", "have ancient pyramids"]
+        },
+        "United States": {
+            "continent": "North America",
+            "climate": "temperate",
+            "geography": "coastal",
+            "size": "very large",
+            "specific_features": ["speak English officially", "have snowy winters", "have deserts"]
+        },
+        "Canada": {
+            "continent": "North America",
+            "climate": "polar",
+            "geography": "coastal",
+            "size": "very large",
+            "specific_features": ["have snowy winters", "speak English officially", "have many islands"]
+        },
+        "Russia": {
+            "continent": "Asia",
+            "climate": "polar",
+            "geography": "coastal",
+            "size": "very large",
+            "specific_features": ["have snowy winters", "export oil"]
+        },
+        "Saudi Arabia": {
+            "continent": "Asia",
+            "climate": "desert",
+            "geography": "coastal",
+            "size": "large",
+            "specific_features": ["have deserts", "export oil"]
+        },
+        "Mexico": {
+            "continent": "North America",
+            "climate": "subtropical",
+            "geography": "coastal",
+            "size": "large",
+            "specific_features": ["have deserts", "have ancient pyramids"]
+        },
+        "Thailand": {
+            "continent": "Asia",
+            "climate": "tropical",
+            "geography": "coastal",
+            "size": "medium-sized",
+            "specific_features": ["have monsoons", "grow rice", "have famous beaches"]
+        },
+        "South Africa": {
+            "continent": "Africa",
+            "climate": "subtropical",
+            "geography": "coastal",
+            "size": "large",
+            "specific_features": ["have deserts", "speak English officially"]
+        },
+        "Argentina": {
+            "continent": "South America",
+            "climate": "temperate",
+            "geography": "coastal",
+            "size": "large",
+            "specific_features": ["have snowy winters"]
+        }
+    }
+}
